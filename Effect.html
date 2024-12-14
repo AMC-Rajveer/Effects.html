@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Background </title>
+
+    <style>
+body{
+    background-image: url(https://t4.ftcdn.net/jpg/05/69/49/63/360_F_569496344_tEf2nCw2bTBV0daUd2sWvRxSzga2diiX.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right top;
+}
+.c1{
+    background-color: black;
+    color: chartreuse;
+    height: 200px;
+    width: 400px;
+    border: 3px solid chartreuse;
+    background-attachment: scroll;
+}
+#a1{
+    height: 200px;
+    background:linear-gradient(#00FFFF,chartreuse);
+}
+#a2{
+    height: 200px;
+    background:linear-gradient(to right,chartreuse,#00FFFF);
+}
+#a3{
+    height: 200px;
+    background:linear-gradient(to bottom right,chartreuse,#00FFFF);
+}
+#a4{
+    height: 200px;
+    background: radial-gradient(chartreuse,#00FFFF,chartreuse,#00FFFF);
+}
+@keyframes w{
+    0% {background-color: chartreuse;}
+    25%{background-color: aqua;}
+    50%{background-color: darkgreen;}
+    100%{background-color: aquamarine;}
+}
+div{
+    height: 200px;
+    width: 200px;
+    background-color: chartreuse;
+    animation-name: w;
+    animation-duration: 4s;
+}
+    </style>
+
+</head>
+
+<body>
+    <div class="c1">
+<h1>Background Effects</h1>
+</div>
+<div id="a1">
+</div>
+<br>
+<br>
+<div id="a2">
+
+</div>
+<br>
+<br>
+<div id="a3">
+
+</div>
+<br>
+<br>
+<div id="a4">
+
+</div>
+<br>
+<br>
+<div>
+howdy
+</div>
+</body>
+
+</html>
